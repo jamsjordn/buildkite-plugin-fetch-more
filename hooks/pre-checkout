@@ -1,0 +1,8 @@
+#!/bin/bash
+set -eo pipefail
+
+echo "Exporting BUILDKITE_REFSPEC"
+
+export BUILDKITE_REFSPEC="$BUILDKITE_BRANCH $BUILDKITE_PLUGIN_GIT_FETCH_MORE_BRANCHES"
+
+echo "Set buildkite refSpec to $BUILDKITE_REFSPEC"

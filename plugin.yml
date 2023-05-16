@@ -1,0 +1,9 @@
+name: Git Fetch More
+description: Sets RefSpec to fetch listed branches along with current branch
+author: https://github.com/jamsjordn
+requirements: ['git']
+configuration:
+  properties:
+    branches:
+      type: string
+  required: [branches]

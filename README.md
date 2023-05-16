@@ -1,1 +1,1 @@
-# buildkite-plugin-fetch-more
+# buildkite-plugin-git-fetch-more
